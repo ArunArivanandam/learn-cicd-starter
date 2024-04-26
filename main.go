@@ -55,6 +55,7 @@ func main() {
 
 	router := chi.NewRouter()
 
+	//cors settings
 	router.Use(cors.Handler(cors.Options{
 		AllowedOrigins:   []string{"https://*", "http://*"},
 		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
