@@ -20,6 +20,10 @@ Run the server:
 go build -o notely && ./notely
 ```
 
+```windows
+go build -o notely.exe && notely.exe
+```
+
 *This starts the server in non-database mode.* It will serve a simple webpage at `http://localhost:8080`.
 
 You do *not* need to set up a database or any interactivity on the webpage yet. Instructions for that will come later in the course!
